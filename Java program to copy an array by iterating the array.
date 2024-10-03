@@ -1,0 +1,10 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+       int[] arr={4,7,8,9};
+       int[] cp=arr.clone();
+       System.out.println(Arrays.toString(cp));
+       
+
+    }
+}
